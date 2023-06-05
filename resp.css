@@ -1,0 +1,32 @@
+@media screen and (width<1300px) {
+    main {
+        flex-direction: column;
+        margin-inline: 10rem;
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+}
+
+@media screen and (width<910px) {
+    main {
+        margin-inline: 10%;
+    }
+}
+
+@media screen and (width<640px) {
+    main {
+        margin-inline: 0;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .amount{
+        font-size: 2.5rem;
+    }
+}

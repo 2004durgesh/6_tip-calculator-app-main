@@ -1,0 +1,47 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::placeholder{
+    font-family:'Space Mono', monospace;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.label{
+    color: hsl(186, 14%, 43%);
+
+}
+.color-white{
+    color: hsl(189, 41%, 97%);
+}
+.color-off-white{
+    color: hsl(186, 14%, 43%);
+    font-size: .85rem;
+}
+
+.error{
+    color: hsl(0, 100%, 66%);
+    
+}
+
